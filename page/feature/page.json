@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white", 
+  "navigationBarBackgroundColor": "#ffffff", 
+  "navigationBarTitleText": "首页", 
+  "backgroundColor": "#000", 
+  "enablePullDownRefresh": false, 
+  "backgroundTextStyle": "dark"
+}
