@@ -63,7 +63,11 @@ checkbox-group, radio-group {
 }
 
 /* 自定义样式 */
-
+.itemTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .toptab {
   padding-bottom: 5px;
   z-index: 2;
@@ -889,7 +893,7 @@ checkbox-group, radio-group {
 }
 
 .wx-scroll-view_MBKQjG {
-  padding-top: 41px;
+  /*padding-top: 41px;*/
   height: 100%;
 }
 

@@ -104,63 +104,6 @@
             </view>
         </navigator>
     </view>
-    <view class="wx-view_TQ4nqD" data-c_e_id="wx_view381b909b">
-        <view class="_other_text_LxtT2c2" data-c_e_id="_other_textf48e3a90">
-            推荐用户
-        </view>
-        <scroll-view class="wx-scroll-view_u9Dyk2" data-c_e_id="wx_scroll_view0fb0066a" lower-threshold="50" scroll-x="True" style="overflow-x: auto; overflow-y: hidden; " upper-threshold="50">
-            <view class="wx-view_Fsk3xr" data-c_e_id="wx_view_ccf230eb">
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigator_13aa3280" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_viewe2514a34">
-                        <image class="useravatar" data-c_e_id="wx_imagec29a0d18" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/782029b69f29e84d8f262c390bf3ab8c.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/782029b69f29e84d8f262c390bf3ab8c.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_textdc7856d5">假杂志</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigator1586a87e" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_view2a69167c">
-                        <image class="useravatar" data-c_e_id="wx_image9391a906" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_text9cc54c36">UPUPUP</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigatore7153e65" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_view7e9222ed">
-                        <image class="useravatar" data-c_e_id="wx_image2ed04110" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/a1a4d46fdb8b5a0404ed092f6cc45249.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/a1a4d46fdb8b5a0404ed092f6cc45249.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_texte3731c5a">Twippo法国时尚</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigator223d3249" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_viewdf33b99b">
-                        <image class="useravatar" data-c_e_id="wx_image7b018a43" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/782029b69f29e84d8f262c390bf3ab8c.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/782029b69f29e84d8f262c390bf3ab8c.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_texte93770e2">假杂志</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigator29a940dd" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_viewaabf8332">
-                        <image class="useravatar" data-c_e_id="wx_image0b2ff366" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_textd7ca4bdb">UPUPUP</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigatora9244556" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_viewa3a0785b">
-                        <image class="useravatar" data-c_e_id="wx_imagecfeca450" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_text11c75f5d">UPUPUP</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigatora22361a3" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_view33e60719">
-                        <image class="useravatar" data-c_e_id="wx_image48c93c0f" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_textcfe58764">UPUPUP</text>
-                </navigator>
-                <navigator class="wx-navigator_NdRePK" data-c_e_id="wx_navigator155af6be" hover-class="navigator-hover">
-                    <view class="wx-view_rMrdRK" data-c_e_id="wx_view7b448dad">
-                        <image class="useravatar" data-c_e_id="wx_imageaa9fda71" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/128/589c0d8d2966eb20241a61564676b7f7.jpg); "/>
-                    </view>
-                    <text class="c-block wx-text_rEcdDL" data-c_e_id="wx_textf537a4b1">UPUPUP</text>
-                </navigator>
-            </view>
-        </scroll-view>
-    </view>
     <view class="c-minheight wx-view_TQ4nqD" data-c_e_id="wx_view878d6007">
         <view class="_other_text_LxtT2c2" data-c_e_id="_other_text1d60a2a3">
             热门商品

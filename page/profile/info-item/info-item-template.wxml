@@ -1,0 +1,6 @@
+<template name="info-item">
+  <view class="info-container">
+    <image class="info-img" src="{{img}}"></image>
+    <text class="info-title">{{title}}</text>
+  </view>
+</template>

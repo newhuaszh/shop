@@ -1,1 +1,25 @@
-/* page/profile/profile.wxss */
+@import "info-item/info-item-template.wxss";
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20px 20px 20px 30px;
+  border-radius: 50%;
+}
+
+.user-nickname {
+  color: #fff;
+  /*font-size: 13px;*/
+  vertical-align: middle;
+}
+
+.user-in {
+  width: 64rpx;
+  height: 64rpx;
+  margin-left: 300rpx;
+}

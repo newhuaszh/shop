@@ -1,14 +1,17 @@
-<view class="bottomGrayboder toptab" data-c_e_id="wx_view_cb07a842">
+<!--<view class="bottomGrayboder toptab" data-c_e_id="wx_view_cb07a842">
   <view bindtap="tap_d9c62767" class="toptabWrap" data-c_e_id="wx_view_c2045354">
-    <view class="active toptabItem" data-c_e_id="_other_text_221e07ff">
+    <view class="toptabItem" data-c_e_id="_other_text_221e07ff">
       商品
     </view>
     <view class="toptabItem" data-c_e_id="_other_text978931bf">
       图文
     </view>
   </view>
-</view>
+</view>-->
 <scroll-view class="c-minheight wx-scroll-view_MBKQjG" data-c_e_id="wx_scroll_view_6d65baf2" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto; " upper-threshold="50">
+  <view class="listitemWrap bottomGrayboder itemTitle">
+    <text>近期热销</text>
+  </view>
   <view bindtap="tap_de01fdb6" class="listitemWrap" data-c_e_id="wx_view687aaf2e">
     <view class="image_thumbView" data-c_e_id="wx_view1ae8f9cf">
       <navigator class="image_thumbView" data-c_e_id="wx_navigatora2558f19" hover-class="navigator-hover" url="../detail/detail">
@@ -51,6 +54,9 @@
       </view>
       <text class="listitem_creattime" data-c_e_id="wx_text2a3c33a6">2016.10.29</text>
     </view>
+  </view>
+  <view class="listitemWrap bottomGrayboder itemTitle">
+    <text>母亲节特卖</text>
   </view>
   <view class="listitemWrap" data-c_e_id="wx_view532ae4bb">
     <navigator class="image_thumbView" data-c_e_id="wx_navigatorfa2e0ffc" hover-class="navigator-hover" url="../detail/detail">

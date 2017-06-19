@@ -16,9 +16,25 @@ Page({
    */
 
   data: {
-    
-  
-  
+    userInfo: {},
+    infoItem:[
+      {
+        img:"../../resources/order.png",
+        title:"我的订单"
+      },
+      {
+        img: "../../resources/address.png",
+        title: "收货地址"
+      },
+      {
+        img: "../../resources/coupon.png",
+        title: "优惠券"
+      },
+      {
+        img: "../../resources/contact.png",
+        title: "联系我们"
+      }
+    ]
   },
 
   /**
@@ -27,6 +43,9 @@ Page({
   onLoad () {
     // 注册coolsite360交互模块
     app.coolsite360.register(this);
+    this.setData({
+      userInfo: app.globalData.userInfo
+    });
   },
 
   /**
