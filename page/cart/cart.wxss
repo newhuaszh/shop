@@ -1,9 +1,15 @@
+.scroll-cart {
+  /*height: 800rpx;*/
+  height: 100%;
+  padding-bottom: 40px;
+}
+
 .cart-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid #cbcbcb;
-  height: 90px;
+  border-bottom: 1px solid rgba(237, 237, 237, 1);
+  height: 200rpx;
 }
 
 .cart-select {
@@ -25,12 +31,6 @@
 }
 
 .cart-title {
-
-}
-
-.cart-title-text {
-  display: flex;
-  flex-direction: row;
   width: 400rpx;
   font-size: 16px;
   overflow: hidden;
@@ -38,18 +38,29 @@
   text-overflow: ellipsis;
 }
 
+.cart-type-delete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .cart-delete {
-  width: 24px;
-  height: 24px;
-  position: absolute;
+  width: 20px;
+  height: 20px;
+  /*position: absolute;
   right: 35rpx;
-  margin-top: 6px;
+  margin-top: 6px;*/
+  /*margin-top: -5px;*/
+  /*margin-left: 40rpx;*/
+  position: absolute;
+  right: 12px;
+  margin-top: -20rpx;
 }
 
 .cart-type {
   width: 400rpx;
   font-size: 12px;
-  color: #AEA8A9;
+  color: #aea8a9;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -78,34 +89,70 @@
   align-items: center;
   position: absolute;
   right: 10px;
+  border: 1px solid #cbcbcb;
+  /*height: 20px;*/
 }
 
 .cart-num-minus {
-  border: 1px solid #cbcbcb;
+  /*border: 1px solid #cbcbcb;*/
   width: 24px;
   height: 20px;
   text-align: center;
   line-height: 20px;
-}
-
-.cart-num-value-container {
-  width: 30px;
-  height: 20px;
-  border-top: 1px solid #cbcbcb;
-  border-bottom: 1px solid #cbcbcb;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .cart-num-value {
+  /*text-align: center;*/
+  margin: 0;
+  /*padding: 0;*/
+  width: 40px;
   text-align: center;
+  /*border: 1px solid #cbcbcb;*/
+  border-left: 1px solid #cbcbcb;
+  border-right: 1px solid #cbcbcb;
+  font-size: 16px;
+  height: 10px;
 }
 
 .cart-num-plus {
-  border: 1px solid #cbcbcb;
+  /*border: 1px solid #cbcbcb;*/
   width: 24px;
   height: 20px;
   text-align: center;
   line-height: 20px;
+}
+
+.cart-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid rgba(237, 237, 237, 1);
+}
+
+.all-select {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.total-price {
+  font-size: 16px;
+  margin-left: 10px;
+  /*font-weight: 500;*/
+}
+
+.cart-buy {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  margin-top: -1px;
+  right: 0;
 }

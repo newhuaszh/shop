@@ -1,30 +1,31 @@
-<block wx:for="{{carts}}" wx:for-item="item" wx:for-index="idx">
-  <view class="cart-container">
-    <image class="cart-select" src="../../resources/select-yes.png"></image>
-    <image class="cart-thumb" src="{{item.thumb}}"></image>
-    <view class="cart-info">
-      <view class="cart-title">
-        <view class="cart-title-text">{{item.title}}</view>
-        <image class="cart-delete" src="../../resources/delete.png"></image>
-      </view>
-      <view class="cart-type">{{item.type}}</view>
-      <view class="cart-price-num">
-        <image class="cart-priceImg" src="../../resources/price.png"></image>
-        <text class="cart-price">{{item.price}}</text>
-        <view class="cart-num">
-          <text class="cart-num-minus">-</text>
-          <view class="cart-num-value-container">
+<scroll-view class="scroll-cart" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto; " upper-threshold="50">
+  <block wx:for="{{carts}}" wx:for-item="item" wx:for-index="idx">
+    <view class="cart-container">
+      <image class="cart-select" src="../../resources/select-yes.png"></image>
+      <image class="cart-thumb" src="{{item.thumb}}"></image>
+      <view class="cart-info">
+        <view class="cart-title">{{item.title}}</view>
+        <view class="cart-type-delete">
+          <view class="cart-type">{{item.type}}</view>
+          <image class="cart-delete" src="../../resources/delete.png"></image>
+        </view>
+        <view class="cart-price-num">
+          <image class="cart-priceImg" src="../../resources/price.png"></image>
+          <text class="cart-price">{{item.price}}</text>
+          <view class="cart-num">
+            <text class="cart-num-minus">-</text>
             <input class="cart-num-value" type="number" value="1" />
+            <text class="cart-num-plus">+</text>
           </view>
-          <text class="cart-num-plus">+</text>
         </view>
       </view>
     </view>
-  </view>
-</block>
+  </block>
+</scroll-view>
 
-<!--<view style="display:flex;flex-direction: row;">
-  <text style="display:block;border:1px solid black" class="">-</text>
-  <input style="border-top:1px solid black;border-bottom:1px solid black;width:20px" type="number" value="1" />
-  <text style="display:block;border:1px solid black"  class="">+</text>
-</view>-->
+<view class="cart-bottom">
+  <image class="cart-select" src="../../resources/select-yes.png"></image>
+  <text class="all-select">全选</text>
+  <text class="total-price">合计: ￥666.00</text>
+  <view class="cart-buy">去结算(1)</view>
+</view>
